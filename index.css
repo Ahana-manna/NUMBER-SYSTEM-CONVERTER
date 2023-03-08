@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(12, 3, 100);
+    text-align: center;
+    border: 7px double whitesmoke;
+    padding: 15px;
+    background-clip: padding-box;
+}
+
+h1{
+    color: rgb(43, 170, 4);
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+input{
+    background-color: rgb(230, 238, 247);
+    color: rgb(13, 67, 216);
+}
+
+label{
+    color: rgb(144, 7, 172);
+}
+
+.to-control{
+    color: brown;
+}
+
+select{
+    background-color: rgb(232, 250, 250);
+}
+
+button{
+    background-color: rgb(88, 23, 5);
+    color: rgb(187, 241, 187);
+    margin: 1%;
+}
+
+textarea{
+    background-color: rgb(237, 221, 247);
+    font-size: larger;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
+.type{
+    margin-left: 15px;
+}
+
+footer{
+    color: rgb(37, 120, 228);
+    margin-top: 65px;
+}

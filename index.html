@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>CONVERTER</title>
+        <h1 style="font-size:35px">NUMBER SYSTEM CONVERTER</h1>
+        <link class="style" rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <form id="frm">
+            <div id="unit1" class="form-rows">
+
+                <span id ="unit2" class="form-cols">
+                    <label for="unit2" style="font-size:17px">Number: </label>
+                    <input id="inp" value="0" type="text" placeholder="enter the number">
+                </span>
+
+                <span id="unit8" class="form-cols">
+                    <label for="unit3" style="font-size:17px" class="type">Type: </label>
+                    <select id="unit3" class="to-control" style="color:black">
+                        <option value="Binary" >Binary</option>
+                        <option value="Octal">Octal</option>
+                        <option value="Decimal">Decimal</option>
+                        <option value="Hexa-Decimal">Hexa-Decimal</option>
+                    </select>
+                </span>
+
+            </div>
+            <br>
+            <button type="button" title="Convert" style="font-size:17px;" onclick="Convert()" class="bttn" >Convert</button>
+            <button type="button" title="Reset" style="font-size:17px;" onclick="Reset()" class="bttn2" >Reset</button><br>
+            <br>
+            <br>
+
+            <label for="unit4" style="font-size:22px; color: rgb(240, 209, 73);">Binary No: </label>
+            <textarea id="unit4" class="space" readonly></textarea>
+
+            <label for="unit5" style="font-size:22px; color: rgb(240, 209, 73);">Octal No: </label>
+            <textarea id="unit5" class="space" readonly ></textarea><br>
+
+            <label for="unit6" style="font-size:22px; color: rgb(240, 209, 73);">Decimal No: </label>
+            <textarea id="unit6" class="space" readonly></textarea>
+
+            <label for="unit7" style="font-size:22px; color: rgb(240, 209, 73);">Hexa-Decimal No: </label>
+            <textarea id="unit7" class="space" readonly></textarea>
+        </form>
+
+        <footer>Made by -<b><font style="font-size:20px ; font-family:verdana"> Ahana_Manna</font></b></footer>
+
+        <script src="index.js"></script>
+
+    </body>
+</html>
